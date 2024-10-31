@@ -1,6 +1,8 @@
 # HW6
 Study group: Karolina Mullokand
 
+#1
+
 **Creating usual R environment**
 
 ```
@@ -136,3 +138,28 @@ if(p_value < 0.05) {
 conf_int <- prop_test$conf.int
 print(paste("95% Confidence Interval:", round(conf_int[1], 4), "to", round(conf_int[2], 4)))
 ```
+#2
+**Topic #1**
+
+```
+The biglasso Package: A Memory- and Computation-Efficient Solver for Lasso Model Fitting with Big Data in R
+by Yaohui Zeng and Patrick Breheny
+
+https://web.p.ebscohost.com/ehost/pdfviewer/pdfviewer?vid=1&sid=9f766dba-9a4a-40ee-b5c1-068c54b75692%40redis
+```
+
+*The *biglasso* article introduces a powerful R package designed for handling very large datasets, which is perfect for my project on household financial health. In this study, I’ll explore how credit card debt, student loans, and other debts impact household stability and wealth, using *biglasso* to manage and analyze the data efficiently. The package’s ability to handle high-dimensional data by loading only necessary parts into memory means I can work with comprehensive datasets like the Survey of Consumer Finances, which has many variables. With econometric techniques like lasso and elastic net regression, *biglasso* will help me pinpoint the most significant factors affecting household finances, providing a clearer picture of how different types of debt influence wealth outcomes.*
+
+ **Topic 2**
+
+ ```
+Outstanding Debt and the Household Portfolio
+Author(s): Thomas A. Becker and Reza Shabani
+Source:
+The Review of Financial Studies , July 2010, Vol. 23, No. 7 (July 2010), pp. 2900-
+2934
+Published by: Oxford University Press. Sponsor: The Society for Financial Studies.
+Stable URL: https://www.jstor.org/stable/40782970
+```
+
+*The article *"Outstanding Debt and the Household Portfolio"* uses data from the Survey of Consumer Finances (SCF), a detailed, publicly accessible dataset collected by the Federal Reserve, which includes comprehensive information on U.S. household assets, liabilities, and demographics. This study explores how mortgage debt impacts households' investment choices, specifically their likelihood to own stocks or bonds, by integrating debt into a standard portfolio choice model. Econometric techniques used include logistic regression for predicting market participation and Tobit regression for portfolio share analysis, which effectively handle cases where certain assets (like stocks) may not be held at all by some households. The key questions addressed are how mortgage debt influences financial risk-taking (e.g., stock and bond ownership) and how debt repayment priorities affect asset allocation within household portfolios.*
