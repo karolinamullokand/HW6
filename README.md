@@ -146,6 +146,8 @@ The biglasso Package: A Memory- and Computation-Efficient Solver for Lasso Model
 by Yaohui Zeng and Patrick Breheny
 
 https://web.p.ebscohost.com/ehost/pdfviewer/pdfviewer?vid=1&sid=9f766dba-9a4a-40ee-b5c1-068c54b75692%40redis
+-OR-
+https://journal.r-project.org/archive/2021/RJ-2021-001/RJ-2021-001.pdf
 ```
 
 *The *biglasso* article introduces a powerful R package designed for handling very large datasets, which is perfect for my project on household financial health. In this study, I’ll explore how credit card debt, student loans, and other debts impact household stability and wealth, using *biglasso* to manage and analyze the data efficiently. The package’s ability to handle high-dimensional data by loading only necessary parts into memory means I can work with comprehensive datasets like the Survey of Consumer Finances, which has many variables. With econometric techniques like lasso and elastic net regression, *biglasso* will help me pinpoint the most significant factors affecting household finances, providing a clearer picture of how different types of debt influence wealth outcomes.*
