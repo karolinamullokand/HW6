@@ -1,7 +1,7 @@
 # HW6
 Study group: Karolina Mullokand
 
-#1
+# 1
 
 **Creating usual R environment**
 
@@ -138,7 +138,7 @@ if(p_value < 0.05) {
 conf_int <- prop_test$conf.int
 print(paste("95% Confidence Interval:", round(conf_int[1], 4), "to", round(conf_int[2], 4)))
 ```
-#2
+# 2
 **Topic #1**
 
 ```
